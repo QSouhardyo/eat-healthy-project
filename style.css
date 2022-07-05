@@ -1,0 +1,118 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.font-color {
+    color: orange
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.half {
+    width: 50%;
+    padding: 2%;
+}
+
+
+.half img {
+    width: 80%;
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(salmon, orange);
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: 900;
+    color: white;
+}
+
+.margin {
+    margin-top: 10%;
+}
+
+#first-left-para {
+    padding-top: 100px;
+}
+
+#second-right-para {
+    padding-top: 150px;
+}
+
+.second-banner {
+    background-image: url(images/shapes/Frame57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.half p {
+    text-align: justify;
+    max-width: 500px;
+}
+
+.recipies {
+    max-width: 550px;
+    text-align: center;
+    padding-left: 400px;
+
+}
+
+.recipie-title img {
+    width: 80%;
+}
+
+.recipie-title {
+    display: flex;
+}
+
+.recipie-half {
+    width: 40%;
+    margin-left: 5%;
+    padding: 20px;
+    box-shadow: 3px 3px 5px 5px rgb(197, 194, 194);
+    border-radius: 30px;
+
+}
+
+.recipie-half p {
+    text-align: justify;
+    max-width: 500px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 3px 3px 10px 10px rgb(197, 194, 194);
+    border-radius: 30px;
+    margin: 5%;
+    padding: 2%;
+}
+
+.foot {
+    text-align: center;
+    background-color: black;
+    color: orange;
+    padding-top: 2%;
+    padding-bottom: 7%;
+
+}
+
+.foot h2 {
+    font-size: 30px;
+}
+
+.foot p {
+    color: white;
+}
